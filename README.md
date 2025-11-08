@@ -1,5 +1,3 @@
-# DS.v3.3.1.5
-
 # Travel Insurance Prediction Data Project
 
 ## Introduction
@@ -10,52 +8,62 @@ In 2019, a Tour & Travels company launched a new travel insurance package that i
 
 **Goals**
 
-The objective of this project is to develop a predictive model that can intelligently determine whether a customer would be interested in buying the travel insurance package. 
+    To buil d a predictive model that accurately identifies customers who are likely to purchase a travel insurance package, enabling improved customer targeting and more effective marketing strategies.
 
-By understanding customer profiles and their influence on insurance purchasing decisions, the company aims to optimize its marketing strategy and offer personalized promotions — ultimately improving sales efficiency and customer targeting.
+**Objectives**
 
-The outcome of this project may support customer-specific advertising and has the potential to help families make informed travel decisions — possibly saving money on unexpected travel-related expenses.
+    Understand Customer Profiles: Analyze customer demographic and travel-related attributes to identify patterns associated with travel insurance purchasing behavior.
+    
+    Prepare and Model Data: Clean, preprocess, and engineer relevant features from the Kaggle travel insurance dataset to develop a classification model.
+    
+    Model Evaluation: Train and compare multiple machine learning algorithms to determine the best-performing model based on accuracy and other relevant evaluation metrics.
+    
+    Provide Actionable Insights: Translate model findings into meaningful insights that can guide targeted marketing strategies and personalized promotional offers.
+    
+    Scope Limitation: The model will use only the attributes available in the provided dataset and will focus on prediction and insights, not real-time deployment or pricing optimization.
 
 **Dataset Overview**
 
 The dataset contains 1987, 9 records of previous customers who were offered travel insurance in 2019. It includes **8 independent variables**:
 
-Age- Age Of The Customer
-
-Employment Type- The Sector In Which Customer Is Employed
-
-GraduateOrNot- Whether The Customer Is College Graduate Or Not
-
-AnnualIncome- The Yearly Income Of The Customer In Indian Rupees[Rounded To Nearest 50 Thousand Rupees]
-
-FamilyMembers- Number Of Members In Customer's Family
-
-ChronicDisease- Whether The Customer Suffers From Any Major Disease Or Conditions Like Diabetes/High BP or Asthama,etc.
-
-FrequentFlyer- Derived Data Based On Customer's History Of Booking Air Tickets On Atleast 4 Different Instances In The Last 2 Years[2017-2019].
-
-EverTravelledAbroad- Has The Customer Ever Travelled To A Foreign Country[Not Necessarily Using The Company's Services]
-
-and **target variable**:
+    Age- Age Of The Customer
+    
+    Employment Type- The Sector In Which Customer Is Employed
+    
+    GraduateOrNot- Whether The Customer Is College Graduate Or Not
+    
+    AnnualIncome- The Yearly Income Of The Customer In Indian Rupees[Rounded To Nearest 50 Thousand Rupees]
+    
+    FamilyMembers- Number Of Members In Customer's Family
+    
+    ChronicDisease- Whether The Customer Suffers From Any Major Disease Or Conditions Like Diabetes/High BP or Asthama,etc.
+    
+    FrequentFlyer- Derived Data Based On Customer's History Of Booking Air Tickets On Atleast 4 Different Instances In The Last 2 Years[2017-2019].
+    
+    EverTravelledAbroad- Has The Customer Ever Travelled To A Foreign Country[Not Necessarily Using The Company's Services]
+    
+    and **target variable**:
 
 TravelInsurance- Did The Customer Buy Travel Insurance Package During Introductory Offering Held In The Year 2019.
-
-### Requirements for Jupyter Notebook:
-- Python 3.11.9
-- Pandas 2.2.3
-- NumPy 1.26.4
-- Seaborn 0.13.2
-- Matplotlib 3.10.1
-- Statsmodels 0.14.4
-- Scipy 1.11.4
-- Sklearn: 1.6.1
 
 ## Data Source
 
 The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/tejashvi14/travel-insurance-prediction-data).
 
-Jupyter Notebook and dataset source, clone the Repository:
-[GitHub](https://github.com/TuringCollegeSubmissions/fverko-DS.v2.5.3.1.5)
+## Setup
+
+1. Clone the repo:
+
+   Link [GitHub](https://github.com/Francishek/Travel-Insurance-Prediction) or
+   ```bash
+   git clone https://github.com/Francishek/Travel-Insurance-Prediction
+   cd project-root
+   ```
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Jupyter Notebook Structure:
 

@@ -8,19 +8,19 @@ In 2019, a Tour & Travels company launched a new travel insurance package that i
 
 **Goals**
 
-    To buil d a predictive model that accurately identifies customers who are likely to purchase a travel insurance package, enabling improved customer targeting and more effective marketing strategies.
+- To buil d a predictive model that accurately identifies customers who are likely to purchase a travel insurance package, enabling improved customer targeting and more effective marketing strategies.
 
 **Objectives**
 
-    Understand Customer Profiles: Analyze customer demographic and travel-related attributes to identify patterns associated with travel insurance purchasing behavior.
-    
-    Prepare and Model Data: Clean, preprocess, and engineer relevant features from the Kaggle travel insurance dataset to develop a classification model.
-    
-    Model Evaluation: Train and compare multiple machine learning algorithms to determine the best-performing model based on accuracy and other relevant evaluation metrics.
-    
-    Provide Actionable Insights: Translate model findings into meaningful insights that can guide targeted marketing strategies and personalized promotional offers.
-    
-    Scope Limitation: The model will use only the attributes available in the provided dataset and will focus on prediction and insights, not real-time deployment or pricing optimization.
+- Understand Customer Profiles: Analyze customer demographic and travel-related attributes to identify patterns associated with travel insurance purchasing behavior.
+
+- Prepare and Model Data: Clean, preprocess, and engineer relevant features from the Kaggle travel insurance dataset to develop a classification model.
+
+- Model Evaluation: Train and compare multiple machine learning algorithms to determine the best-performing model based on accuracy and other relevant evaluation metrics.
+
+- Provide Actionable Insights: Translate model findings into meaningful insights that can guide targeted marketing strategies and personalized promotional offers.
+
+- Scope Limitation: The model will use only the attributes available in the provided dataset and will focus on prediction and insights, not real-time deployment or pricing optimization.
 
 **Dataset Overview**
 
